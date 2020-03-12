@@ -4,4 +4,9 @@ body {
 }
 #oi{
     width: 700px;
+    margin: auto;
+    background: #e3e3e3;
+}
+header h1 {
+          padding: 10px 20px;
 }
