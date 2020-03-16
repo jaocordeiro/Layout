@@ -2,10 +2,17 @@ body {
       font-family: Helvetiva, sans-serif;
       color: black
 }
+a:link, a:visited{
+      color: #48D1CC;
+      text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
 #oi{
-    width: 700px;
+    width: 850px;
     margin: auto;
-    background: #e3e3e3;
+    background: #DCDCDC;
     padding: 10px 20px;
 }
 header nav ul {
@@ -18,9 +25,18 @@ header nav ul li {
 }
 header nav ul li a{
         font-size: 15px;
-        color: #48D1CC	;
-        text-decoration: none;
 }
-header nav ul li a:hover{
-          text-decoration: underline;
+#opa {
+    float: left;
+    width: 580px;
+}
+#blz {
+    float: right;
+    width: 270px;
+}
+#blz ul {
+    list-style: none;
+}
+footer{
+    clear: both;
 }
